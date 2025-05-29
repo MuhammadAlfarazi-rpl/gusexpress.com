@@ -1,6 +1,6 @@
 <?php include(".layouts/header.php"); ?>
 <!-- Register -->
-<div class="card">
+<div class="card-hover">
   <div class="card-body">
     <!-- Logo -->
     <div>

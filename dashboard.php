@@ -263,7 +263,7 @@ if (!isset($_SESSION['username']) || $_SESSION['role'] !== 'admin') {
                     $pengiriman_id = $pengiriman["pengiriman_id"];
                     echo '
                     <!-- Membuat card untuk setiap pengiriman -->
-                    <div class="card border border-2 rounded-3 mb-3">
+                    <div class="card-hover border border-2 rounded-3 mb-3">
                     <div class="accordion-item border-0 mb-0 shadow-none active" id="fl-'.$pengiriman_id.'">
                       <div class="accordion-header" id="fleetHeader'.$pengiriman_id.'">
                         <div role="button" class="accordion-button shadow-none align-items-center collapsed" data-bs-toggle="collapse" data-bs-target="#fleet'.$pengiriman_id.'" aria-expanded="true" aria-controls="fleet'.$pengiriman_id.'">

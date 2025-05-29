@@ -3,21 +3,89 @@ body {
     color: white !important;
   }
   
-.card {
-    background-color: #13181f !important;
-    border-radius: 7px;
-    border: 1px solid white !important;
-    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
-  }
+.card-hover {
+  background-color: #13181f !important;
+  border: 1px solid white !important;
+  border-radius: 7px;
+  transition: transform 0.3s ease-in-out;
+}
 
-.card:hover {
-    transform: scale(1.02);
-  }
-  
+.card-hover:hover {
+  transform: scale(1.02);
+}
+
+.card {
+  background-color: #13181f !important;
+  border: 1px solid white !important;
+  border-radius: 6px !important;
+}
+
+.accordion-item {
+  background-color: #13181f !important;
+  border-radius: 8px !important;
+}
+
+.accordion-button {
+  background-color: #13181f !important;
+  border-radius: 8px !important;
+}
+
 .form-control {
     background-color: #13181f !important;
 }
 
 .input-group-text {
     background-color: #13181f !important;
+}
+
+.bg-menu-theme {
+    background-color: #0d1117 !important;
+    color: #566a7f !important;
+}
+
+.bg-navbar-theme {
+  background-color: #0d1117 !important;
+  color: #566a7f !important;
+  border: 1px solid white !important;
+  border-radius: 7px;
+}
+
+.bg-sidemenu-theme {
+  background-color: #0d1117 !important;
+  color: #566a7f !important;
+  border-right: 1px solid white !important;
+}
+
+.authentication-inner::after {
+  content: none !important;
+  display: none !important;
+}
+
+.authentication-inner::before {
+  content: none !important;
+  display: none !important;
+}
+
+.bg-label-secondary {
+  background-color: #ffffff !important;
+}
+
+.menu-link {
+  background-color: #0d1117 !important;
+  color: #566a7f !important;
+}
+
+.dropdown-menu {
+  background-color: #13181f !important;
+  color: #566a7f !important;
+}
+
+.dropdown-menu a.dropdown-item {
+  background-color: #13181f !important;
+  color: #566a7f !important;
+}
+
+.form-select {
+  background-color: #13181f !important;
+  color: #566a7f !important;
 }
