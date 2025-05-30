@@ -60,6 +60,7 @@ if ($result->num_rows > 0) {
 
                         <!-- Nama Biaya -->
                         <label class="form-label">Tipe Ekspedisi</label>
+                        <input type="text" class="form-control" name="biaya" value="<?php echo $paket['nama_harga']?>"required>
                         <div class="input-group">
 
                         <!-- Dropdown untuk memilih Tipe & Harga ekspedisi-->

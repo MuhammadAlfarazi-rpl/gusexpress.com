@@ -3,6 +3,10 @@ body {
     color: white !important;
   }
   
+.card-gray {
+  background-color:#202730 !important ;
+}
+
 .card-hover {
   background-color: #13181f !important;
   border: 1px solid white !important;
@@ -88,4 +92,12 @@ body {
 .form-select {
   background-color: #13181f !important;
   color: #566a7f !important;
+}
+
+.modal-content {
+  background-color: #202730 !important;
+}
+
+.btn-close {
+  background-color: rgb(219, 7, 7) !important;
 }
